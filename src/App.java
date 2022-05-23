@@ -27,7 +27,7 @@ public class App {
                 FloydMethod.FloydWarshall a = new FloydMethod.FloydWarshall(matrix, vertices);
                 a.createMatrix();
                 matrix = a.getMatrix();
-                Kmeans solver = new Kmeans(grafo, k);
+                // Kmeans solver = new Kmeans(grafo, k);
             }
         } catch (Exception ex) {
             ex.printStackTrace();
